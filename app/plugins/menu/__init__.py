@@ -7,8 +7,8 @@ class MenuCommand(Command):
         self.command_handler = command_handler
 
     def execute(self, args=None):
-        logging.info("Available commands:")
-        print("Available commands:")
+        logging.info("Available Commands:")
+        print("Available Commands:")
         for command_name in self.command_handler.commands:
             print(command_name)
             logging.info(command_name)
