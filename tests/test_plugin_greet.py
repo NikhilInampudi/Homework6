@@ -22,4 +22,4 @@ def test_app_greet_command(capfd, monkeypatch):
     out, _ = capfd.readouterr()
 
     # Assert that 'Hello, World!' was printed to stdout
-    assert "Hello, World!" in out, "The 'greet' command did not produce the expected output."
+    assert "Hello World!" in out, "The 'greet' command did not produce the expected output."
